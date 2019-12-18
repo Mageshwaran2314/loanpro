@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f8c586-5163-4b51-8370-2df540b1f43c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/templates/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/templates/loan_request.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/loan_request.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/templates/show_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/show_details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/details/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="44f8c586-5163-4b51-8370-2df540b1f43c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show_details.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="show_details.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/details/templates/show_details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="7">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -62,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bank/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -228,7 +219,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -236,7 +226,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37909517" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.8549142" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20849724" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -511,13 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/templates/show_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/details/templates/details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -552,6 +535,13 @@
           <folding>
             <element signature="e#628#660#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/templates/show_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
