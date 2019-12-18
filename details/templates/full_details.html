@@ -1,0 +1,74 @@
+{% extends 'index.html' %}
+{% block content %}
+
+    <h1>Full Details</h1>
+
+
+        <table class="table">
+            <tbody>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>User Id</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Salary</th>
+                    <th>Loan_Amount</th>
+                    <th>Loan Allocated</th>
+                    <th>Loan Sanction Date</th>
+                    <th>Loan Paid</th>
+                    <th>Due Amount</th>
+                    <th>Due Date</th>
+                    <th>Approve</th>
+                  </tr>
+                </thead>
+                {% for i in d %}
+                  <tr>
+                    <td>{{ i.name }}</td>
+                    <td>{{ i.unique }}</td>
+                    <td>{{ i.age }}</td>
+                    <td>{{ i.address }}</td>
+                    <td>{{ i.phone }}</td>
+                    <td>{{ i.salary }}</td>
+                    <td>{{ i.loan_amount }}</td>
+                    <td>
+                        {% if i.is_allocated == True %}
+                            YES
+                        {% else %}
+                            NO
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if i.loan_sanction_date == None %}
+
+                        {% else %}
+                            {{ i.due_date }}
+                        {% endif %}
+                    </td>
+                    <td>{{ i.loan_paid }}</td>
+                    <td>{{ i.due_amount }}</td>
+                    <td>
+                        {% if i.due_date == None %}
+
+                        {% else %}
+                            {{ i.due_date }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if i.is_allocated == True %}
+                            <button type="submit" class="btn btn-default disabled">Approved</button>
+                        {% else %}
+                            <a href="{% url 'approve' i.id %}"><button class="btn btn-success">Approve</button></a>
+                        {% endif %}
+                    </td>
+                  </tr>
+                {% endfor %}
+            </tbody>
+          </table>
+
+
+{% endblock %}
+
+
+
