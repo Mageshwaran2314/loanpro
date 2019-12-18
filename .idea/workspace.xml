@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44f8c586-5163-4b51-8370-2df540b1f43c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bank/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bank/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bank/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/details/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details/templates/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/details/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/details/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/templates/loan_request.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/loan_request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details/templates/show_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/details/templates/show_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/details/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/details/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +23,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/details/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -43,8 +35,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/details/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+            <state relative-caret-position="1140">
+              <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -52,23 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/details/forms.py">
+      <file leaf-file-name="show_details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/details/templates/show_details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bank/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+            <state relative-caret-position="90">
+              <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -76,26 +56,20 @@
       <file leaf-file-name="details.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/details/templates/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="135">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bank/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show_details.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/details/templates/show_details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="23" column="93" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
+              <folding>
+                <element signature="e#628#660#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +108,7 @@
       <find>django.contrib.sessions</find>
       <find>print</find>
       <find>acco</find>
+      <find>from accounts import views</find>
       <find>user_detail</find>
     </findStrings>
   </component>
@@ -149,20 +124,20 @@
         <option value="$PROJECT_DIR$/accountuser/models.py" />
         <option value="$PROJECT_DIR$/accounts/forms.py" />
         <option value="$PROJECT_DIR$/accounts/views.py" />
-        <option value="$PROJECT_DIR$/bank/urls.py" />
         <option value="$PROJECT_DIR$/accounts/templates/login.html" />
         <option value="$PROJECT_DIR$/details/templates/index.html" />
-        <option value="$PROJECT_DIR$/details/templates/home.html" />
         <option value="$PROJECT_DIR$/details/models.py" />
-        <option value="$PROJECT_DIR$/details/templates/full_details.html" />
-        <option value="$PROJECT_DIR$/details/templates/show_details.html" />
-        <option value="$PROJECT_DIR$/details/templates/loan_request.html" />
         <option value="$PROJECT_DIR$/details/urls.py" />
-        <option value="$PROJECT_DIR$/details/views.py" />
         <option value="$PROJECT_DIR$/details/forms.py" />
         <option value="$PROJECT_DIR$/bank/settings.py" />
-        <option value="$PROJECT_DIR$/details/templates/details.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/details/templates/home.html" />
+        <option value="$PROJECT_DIR$/details/templates/loan_request.html" />
+        <option value="$PROJECT_DIR$/details/templates/details.html" />
+        <option value="$PROJECT_DIR$/details/templates/full_details.html" />
+        <option value="$PROJECT_DIR$/details/templates/show_details.html" />
+        <option value="$PROJECT_DIR$/details/views.py" />
+        <option value="$PROJECT_DIR$/bank/urls.py" />
       </list>
     </option>
   </component>
@@ -193,6 +168,17 @@
             <path>
               <item name="loan" type="b2602c69:ProjectViewProjectNode" />
               <item name="loan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loan" type="462c0819:PsiDirectoryNode" />
+              <item name="details" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="loan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="loan" type="462c0819:PsiDirectoryNode" />
+              <item name="details" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,10 +236,11 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22932917" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20849724" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37909517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20849724" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -264,7 +251,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,30 +394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="90" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="90" />
-          <folding>
-            <element signature="e#628#660#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/details/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -446,35 +408,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/templates/loan_request.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/details/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/templates/full_details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="45" lean-forward="true" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-          <folding>
-            <element signature="n#tr#0;n#thead#0;n#table#0;n#!!top" />
-            <element signature="n#tr#0;n#table#0;n#!!top" />
-            <element signature="e#2509#2516#1" expanded="true" />
-            <element signature="e#2574#2581#1" expanded="true" />
-            <element signature="e#2969#2976#1" expanded="true" />
-            <element signature="e#3034#3041#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,16 +428,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/details/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/details/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -525,51 +452,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bank/settings.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/urls.py">
+    <entry file="file://$PROJECT_DIR$/bank/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/details/views.py">
+    <entry file="file://$PROJECT_DIR$/details/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="95" column="35" lean-forward="true" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
+        <state relative-caret-position="105">
+          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/templates/loan_request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/templates/full_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#tr#0;n#thead#0;n#table#0;n#!!top" />
+            <element signature="n#tr#0;n#table#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/details/templates/show_details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="90">
+          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/details/templates/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="135">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/details/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="1140">
+          <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/details/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="93" selection-start-line="23" selection-start-column="93" selection-end-line="23" selection-end-column="93" />
+          <folding>
+            <element signature="e#628#660#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
