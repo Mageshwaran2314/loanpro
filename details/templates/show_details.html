@@ -6,13 +6,10 @@
     <div class="container" style="margin-top: 50px;">
         <form method="POST" action="" class="form-horizontal">{% csrf_token %}
             <div class="form-group has-success">
-                <label class="control-label col-sm-2" for="id1">Name</label>
+                <label class="control-label col-sm-2">User ID</label>
                 <div class="col-sm-6">
-                    <input class="form-control" type="text" placeholder="Enter User Name" name="name">
+                    <input class="form-control" type="text" placeholder="Enter User ID" name="name">
                 </div>
-            </div>
-
-            <div class="container">
                 <button type="submit" class="btn btn-success">Submit</button>
             </div>
         </form>
