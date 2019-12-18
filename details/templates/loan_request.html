@@ -1,66 +1,66 @@
 {% extends 'index.html' %}
 {% block content %}
     <h2 class="text-center">Request Loan</h2>
-    <div class="container" style="margin-top: 50px;">
+    <div class="container" style="margin-top: 50px;width: 500px">
         <form method="POST" action="" class="form-horizontal" enctype="multipart/form-data">{% csrf_token %}
             <div class="form-group has-success">
                 <label class="control-label col-sm-2" for="id1">Name</label>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <input class="form-control" type="text" placeholder="Enter your Name" name="name">
                 </div>
             </div>
 
             <div class="form-group has-success">
                 <label class="control-label col-sm-2" for="id1">Age</label>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <input class="form-control" type="number" placeholder="Enter your age" name="age">
                 </div>
             </div>
 
             <div class="form-group has-success">
                 <label class="control-label col-sm-2" for="id1">Address</label>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <input class="form-control" type="text" placeholder="Enter your address" name="address">
                 </div>
             </div>
 
             <div class="form-group has-success">
                 <label class="control-label col-sm-2" for="id1">Phone</label>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <input class="form-control" type="number" id="id1" placeholder="Enter your phone" name="phone">
                 </div>
             </div>
 
             <div class="form-group has-success">
                 <label class="control-label col-sm-2" for="id1">Email</label>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <input class="form-control" type="email" id="id1" placeholder="Enter your phone" name="email">
                 </div>
             </div>
 
             <div class="form-group has-success">
                 <label class="control-label col-sm-2" for="id1">Salary</label>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <input class="form-control" type="number" id="id1" placeholder="Enter your phone" name="salary">
                 </div>
             </div>
 
             <div class="form-group has-success">
                 <label class="control-label col-sm-2" for="id1">Loan amount</label>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <input class="form-control" type="number" id="id1" placeholder="Enter your loan amount" name="loan_amount">
                 </div>
             </div>
 
             <div class="form-group has-success">
                 <label class="control-label col-sm-2" for="id1">Profile Pic</label>
-                <div class="col-sm-6">
+                <div class="col-sm-10">
                     <input class="form-control" type="file" id="id1" name="profile">
                 </div>
             </div>
 
-            <div class="container">
-                <button type="submit" class="btn btn-success">Submit</button>
+            <div class="text-center">
+                <button type="submit" class="btn btn-success btn-block">Submit</button>
             </div>
         </form>
     </div>

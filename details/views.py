@@ -74,8 +74,10 @@ def loan_request(request):
 def user_detail(request):
     if request.method == 'POST':
         name = request.POST.dict().get("name",None)
-        loan = LoanDetails.objects.get(unique = name)
-
+        try:
+            loan = LoanDetails.objects.get(unique = name)
+        except Exception as e:
+            return render(request, 'details.html', {'d': {"User ID": "Invalid"}})
         data = {
              # 'id': loan.id,
              'name': loan.name,
