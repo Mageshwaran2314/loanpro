@@ -57,7 +57,7 @@ ROOT_URLCONF = 'bank.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["accounts/templates", "details/templates"],
+        'DIRS': ["details/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
