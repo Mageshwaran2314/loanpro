@@ -6,6 +6,8 @@ from details.models import LoanDetails
 
 import arrow
 
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
 from django.core.files.storage import FileSystemStorage
 
 def home(request):
@@ -177,7 +179,18 @@ def user_detail(request):
 
 def full_details(request):
     loan = LoanDetails.objects.all()
-    return render(request, 'full_details.html', {'d': loan})
+
+    page = request.GET.get('page', 1)
+    print("PAGES",page)
+    paginator = Paginator(loan, 8)
+    try:
+        loan_data = paginator.page(page)
+    except PageNotAnInteger:
+        loan_data = paginator.page(1)
+    except EmptyPage:
+        loan_data = paginator.page(paginator.num_pages)
+
+    return render(request, 'full_details.html', {'d': loan_data})
 
 
 # def approve(request):
