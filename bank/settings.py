@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'details.apps.DetailsConfig'
 ]
 
+LOGIN_REDIRECT_URL = '/full_details/'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

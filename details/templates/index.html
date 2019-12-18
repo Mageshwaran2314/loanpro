@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Index</title>
-    <!-- Latest compiled and minified CSS -->
+    <title>Bankloan.com</title>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -23,7 +21,9 @@
           <li class="active"><a href="{% url 'home' %}">Home</a></li>
           <li><a href="{% url 'loan_request' %}">Request Loan</a></li>
           <li><a href="{% url 'user_detail' %}">User Detail</a></li>
-          <li><a href="{% url 'full_details' %}">Admin</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-log-in"></span> Admin Login</a></li>
         </ul>
       </div>
     </nav>
